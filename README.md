@@ -1,5 +1,7 @@
 <p align="center"><img src="docs/highspeak-social-preview.png" alt="HighSpeak"></p>
 
+<p align="center"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License: MIT"> <img src="https://img.shields.io/badge/platform-macOS%2010.13-lightgrey" alt="macOS 10.13"> <img src="https://img.shields.io/badge/Swift-4.2-orange" alt="Swift 4.2"> <img src="https://img.shields.io/badge/status-alpha-yellow" alt="Status: alpha"></p>
+
 # HighSpeak
 
 A push-to-talk voice assistant for **macOS 10.13 High Sierra**. Hold the button, talk, and HighSpeak transcribes your voice, sends it to an AI model, speaks the answer back, and shows it on screen with formatted text, tables, and code blocks.
