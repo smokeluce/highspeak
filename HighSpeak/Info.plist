@@ -24,7 +24,5 @@
 	<string>HighSpeak needs mic for push-to-talk</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
-	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>HighSpeak needs speech recognition for voice chat</string>
 </dict>
 </plist>

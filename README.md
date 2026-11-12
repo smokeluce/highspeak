@@ -20,7 +20,7 @@ High Sierra predates Apple's modern speech APIs (`SFSpeechRecognizer` needs 10.1
 
 ## Requirements
 
-- macOS 10.13 or later
+- macOS 10.13 (built and tested there; newer versions are untested)
 - Xcode 10.1 (Swift 4.2) to build
 - A free Groq API key from <https://console.groq.com>
 
