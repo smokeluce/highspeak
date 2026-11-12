@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		6C000F3E30A5A36900048818 /* ChatAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C000F3D30A5A36900048818 /* ChatAssets.swift */; };
 		6C7F1B4E305E271F00D4A1A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F1B4D305E271F00D4A1A0 /* AppDelegate.swift */; };
-		6C7F1B50305E272C00D4A1A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7F1B4F305E272C00D4A1A0 /* Assets.xcassets */; };
 		6C7F1B5D305E2DC700D4A1A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F1B5C305E2DC700D4A1A0 /* ViewController.swift */; };
 		6C7F1B5F305E354C00D4A1A0 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F1B5E305E354C00D4A1A0 /* KeychainHelper.swift */; };
 		6C7F1B61305E3CBC00D4A1A0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7F1B60305E3CBC00D4A1A0 /* main.swift */; };
+		6CF81EBC30A6068F00693233 /* HighSpeak.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6CF81EBB30A6068F00693233 /* HighSpeak.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +25,7 @@
 		6C7F1B5C305E2DC700D4A1A0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = HighSpeak/ViewController.swift; sourceTree = "<group>"; };
 		6C7F1B5E305E354C00D4A1A0 /* KeychainHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeychainHelper.swift; path = HighSpeak/KeychainHelper.swift; sourceTree = "<group>"; };
 		6C7F1B60305E3CBC00D4A1A0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6CF81EBB30A6068F00693233 /* HighSpeak.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = HighSpeak.icns; path = HighSpeak/HighSpeak.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		6C7F1B41305E271F00D4A1A0 = {
 			isa = PBXGroup;
 			children = (
+				6CF81EBB30A6068F00693233 /* HighSpeak.icns */,
 				6C000F3D30A5A36900048818 /* ChatAssets.swift */,
 				6C7F1B5E305E354C00D4A1A0 /* KeychainHelper.swift */,
 				6C7F1B5C305E2DC700D4A1A0 /* ViewController.swift */,
@@ -127,7 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C7F1B50305E272C00D4A1A0 /* Assets.xcassets in Resources */,
+				6CF81EBC30A6068F00693233 /* HighSpeak.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +269,6 @@
 		6C7F1B59305E272C00D4A1A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HighSpeak/HighSpeak.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -286,7 +287,6 @@
 		6C7F1B5A305E272C00D4A1A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HighSpeak/HighSpeak.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
