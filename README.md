@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/highspeak-social-preview.png" alt="HighSpeak"></p>
+
 # HighSpeak
 
 A push-to-talk voice assistant for **macOS 10.13 High Sierra**. Hold the button, talk, and HighSpeak transcribes your voice, sends it to an AI model, speaks the answer back, and shows it on screen with formatted text, tables, and code blocks.
