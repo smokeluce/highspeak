@@ -4,3 +4,5 @@ DerivedData/
 build/
 *.xcuserstate
 *.rtf
+*.zip
+*.app
