@@ -47,3 +47,7 @@ High Sierra predates Apple's modern speech APIs (`SFSpeechRecognizer` needs 10.1
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+## Artwork
+
+The app icon was generated with Meta AI.
